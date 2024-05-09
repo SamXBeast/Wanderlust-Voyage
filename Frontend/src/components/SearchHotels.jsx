@@ -2,7 +2,7 @@ import React from 'react'
 
 const SearchHotels = () => {
   return (
-    <div className="border border-gray-300 p-2 rounded-md flex justify-between gap-5 mb-5">
+    <div className="border border-gray-300 p-2 rounded-md flex justify-between gap-5 mb-5 w-max">
   <img
     src="https://cf.bstatic.com/xdata/images/hotel/square600/261707778.webp?k=fa6b6128468ec15e81f7d076b6f2473fa3a80c255582f155cae35f9edbffdd78&o=&s=1"
     alt=""
@@ -25,7 +25,7 @@ const SearchHotels = () => {
   </div>
   <div className="flex-1 flex flex-col justify-between">
     <div className="flex justify-between">
-      <span className="font-medium">Excellent</span>
+      <span className="font-medium ml-2">Excellent</span>
       <button className="bg-blue-800 text-white py-1 px-1 font-bold rounded-md border-none">8.9</button>
     </div>
     <div className="text-right flex flex-col gap-1.5">
