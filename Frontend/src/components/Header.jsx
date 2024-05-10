@@ -52,11 +52,11 @@ const Header = ({type}) => {
     >
       <ul className="flex justify-between items-center gap-5 mr-8 ">
             <li><Link to="/"><button className='px-4 py-2 bg-blue-700 text-white rounded-lg opacity-90 hover:bg-blue-500'><FontAwesomeIcon icon={faBed}/><span className='ml-1'>Stays</span></button></Link></li>
-            <li><Link to="/"><button className='px-4 py-2 bg-blue-700 text-white rounded-lg opacity-90 hover:bg-blue-500'><FontAwesomeIcon icon={faPlane}/><span className="ml-1">Flights</span></button></Link></li>
+            <li><Link to="/flights"><button className='px-4 py-2 bg-blue-700 text-white rounded-lg opacity-90 hover:bg-blue-500'><FontAwesomeIcon icon={faPlane}/><span className="ml-1">Flights</span></button></Link></li>
             <li><Link to="/"><button className='px-4 py-2 bg-blue-700 text-white rounded-lg opacity-90 hover:bg-blue-500'><FontAwesomeIcon icon={faEarthAsia}/><span className="ml-1">Flight+Hotels</span></button></Link></li>
-            <li><Link to="/"><button className='px-4 py-2 bg-blue-700 text-white rounded-lg opacity-90 hover:bg-blue-500'><FontAwesomeIcon icon={faCar}/><span className="ml-1">Car Rentals</span></button></Link></li>
-            <li><Link to="/"><button className='px-4 py-2 bg-blue-700 text-white rounded-lg opacity-90 hover:bg-blue-500'><FontAwesomeIcon icon={faMartiniGlassEmpty}/><span className="ml-1">Attractions</span></button></Link></li>
-            <li><Link to="/"><button className='px-4 py-2 bg-blue-700 text-white rounded-lg opacity-90 hover:bg-blue-500'><FontAwesomeIcon icon={faTaxi}/><span className="ml-1">Airport Taxis</span></button></Link></li>
+            <li><Link to="/cars"><button className='px-4 py-2 bg-blue-700 text-white rounded-lg opacity-90 hover:bg-blue-500'><FontAwesomeIcon icon={faCar}/><span className="ml-1">Car Rentals</span></button></Link></li>
+            <li><Link to="/attractions"><button className='px-4 py-2 bg-blue-700 text-white rounded-lg opacity-90 hover:bg-blue-500'><FontAwesomeIcon icon={faMartiniGlassEmpty}/><span className="ml-1">Attractions</span></button></Link></li>
+            <li><Link to="/taxis"><button className='px-4 py-2 bg-blue-700 text-white rounded-lg opacity-90 hover:bg-blue-500'><FontAwesomeIcon icon={faTaxi}/><span className="ml-1">Airport Taxis</span></button></Link></li>
       </ul>
       {type !== "list" && (
         <>

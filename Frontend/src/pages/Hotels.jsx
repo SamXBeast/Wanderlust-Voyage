@@ -16,7 +16,7 @@ const Hotels = () => {
   const [options, setOptions] = useState(location.state.options);
   
   return (
-    <div>
+    <div className='overflow-hidden'>
         <Navbar />
         <Header type="list" />
         <div className="flex justify-center mt-5">
